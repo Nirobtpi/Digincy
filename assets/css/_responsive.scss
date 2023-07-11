@@ -1,0 +1,238 @@
+@media all and (max-width:1200px) {
+    .header-area .menu ul li a {
+        padding: 1rem 1rem;
+    }
+
+    .about-area .about-item .item {
+        padding: 2.5rem 0rem 1.5rem 0rem;
+    }
+}
+
+@media all and (min-width:992px) {
+    .header-area .logo-area .menu-bar {
+        display: none !important;
+    }
+
+    .header-area .menu-bar-top {
+        display: block !important;
+    }
+}
+
+@media all and (max-width:991px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3.1rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    .menu-bar-top {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: var(--color11);
+        z-index: 999;
+        display: none;
+    }
+
+    .header-area .menu ul {
+        flex-direction: column;
+    }
+
+    .header-area .logo-area .menu-bar {
+        display: block;
+    }
+
+    .header-area .logo-area .menu-bar .show-menu i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .dark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .header-area .darklight i {
+        left: 5rem;
+    }
+
+    .banner-img {
+        order: -1;
+        margin-bottom: 2rem;
+    }
+
+    .banner-area .banner-item {
+        padding: 2rem 0;
+    }
+
+    .about-area .about-item .item {
+        padding: 2.5rem 1rem 1.5rem 1rem;
+    }
+
+    .about-area .about-content {
+        margin-top: 2rem;
+    }
+
+    .completed-area .left-content {
+        margin-bottom: 7rem;
+    }
+
+    .team-area .team-member {
+        margin-bottom: 4rem;
+    }
+
+    .project-area {
+        padding-top: 0;
+    }
+
+    .contact-methood {
+        justify-content: center;
+    }
+
+    .form-area {
+        margin-top: 3rem;
+    }
+
+}
+
+@media all and (max-width:767px) {
+    h1 {
+        font-size: 3.1rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    h5 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    .blog-area .left-item .date ul {
+        justify-content: space-between;
+    }
+
+    .blog-area .left-item .date ul li {
+        padding: 0.5rem 0rem;
+    }
+}
+
+@media all and (max-width:575px) {
+    // .container{
+    //     width: 95%;
+    // }
+    .section-padding {
+        padding: 3rem 0;
+    }
+
+    h1 {
+        text-align: center;
+        line-height: 125%;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-center {
+        text-align: center;
+    }
+
+    .completed-area .section-title p {
+        text-align: center;
+    }
+
+    .client-area .client-say .content p {
+        text-align: left;
+    }
+
+    .blog-area .designer .design-content {
+        flex-direction: column;
+    }
+
+    .contact-area .contact-form .form-area input[type="submit"] {
+        width: 100%;
+    }
+
+    .company-area {
+        padding: 5rem 0 !important;
+    }
+
+    .footer-area .footer-items .footer-widget h2 {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+
+    .footer-area .footer-items .footer-widget p {
+        text-align: left;
+    }
+
+    .blog-area .left-item .discription p,
+    .news-item .content p {
+        text-align: left;
+    }
+
+}
+
+
+@media all and (max-width:449px) {
+    .dark {
+        top: -2px;
+        // left: 68px;
+    }
+
+    .client-area .client-say .content h4 {
+        font-size: 1.6rem;
+    }
+
+    .blog-area .designer .design-content h4 {
+        font-size: 1.6rem;
+    }
+
+    .blog-area .designer .profile-area .profile-content h5 {
+        font-size: 1.2rem;
+    }
+
+    .blog-area .designer .profile-area .profile-content p {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+}

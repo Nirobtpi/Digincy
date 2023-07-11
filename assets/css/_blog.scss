@@ -1,0 +1,191 @@
+.page-hero {
+    width: 100%;
+    position: relative;
+    background: var(--color2);
+
+    .page-hero-content {
+        text-align: center;
+        padding: 3rem 0;
+
+        h2 {
+            color: var(--color4);
+        }
+
+        .page-link {
+            text-align: center;
+
+            span {
+                color: var(--color7);
+            }
+
+            a {
+                display: inline-block;
+                font-size: 1.8rem;
+                color: var(--color7);
+                padding: 0.5rem 0;
+            }
+        }
+    }
+}
+
+.blog-area {
+    width: 100%;
+    position: relative;
+
+    .left-item {
+        padding: 2rem 0;
+
+        img {
+            width: 100%;
+            height: 40rem;
+            margin-bottom: 2rem;
+        }
+
+        .date {
+            margin-bottom: 3rem;
+            padding: 0rem 1.5rem;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                li {
+                    padding: 0 1.5rem;
+                    color: var(--color7);
+                    font-size: 1.8rem;
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+
+        .discription {
+            padding: 0rem 1.5rem;
+
+            h3 {
+                margin-bottom: 2rem;
+
+                a {
+                    color: var(--color3);
+                }
+            }
+
+            p {
+                font-size: 1.6rem;
+                margin-bottom: 2.5rem;
+            }
+
+            .btn-1 {
+                filter: drop-shadow(4px 5px 15px rgba(255, 83, 0, 0.4));
+            }
+        }
+    }
+
+    .search-box {
+        padding: 2rem 0;
+
+        .form-ser {
+            position: relative;
+
+            input {
+                width: 100%;
+                padding: 1rem 1rem;
+                outline: none;
+                background: var(--color8);
+                border: none;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 0.5rem;
+                color: var(--color7);
+
+                &::placeholder {
+                    color: var(--color7);
+                    opacity: 1;
+                }
+            }
+
+            .btn {
+                font-size: 1.8rem;
+                color: var(--color3);
+                width: 4rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+
+    .latest-post {
+        padding: 2rem 1.5rem;
+        background: var(--color8);
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 3rem;
+
+        h4 {
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .news-item {
+            display: flex;
+            // align-items: center;
+            margin-bottom: 2rem;
+
+            img {
+                width: 6rem;
+                height: 6rem;
+                margin-right: 1.5rem;
+            }
+
+            h5 {
+                font-size: 1.8rem;
+                margin-bottom: 0;
+
+                a {
+                    font-size: 1.8rem;
+                    color: var(--color3);
+                }
+            }
+        }
+    }
+
+    .categories-area {
+
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+
+            h5 {
+                font-size: 1.8rem;
+                color: var(--color7);
+            }
+
+            button {
+                width: 3rem;
+                padding: 0.5rem;
+                border: 0.1rem solid var(--color7);
+                background: transparent;
+                color: var(--color7);
+            }
+        }
+    }
+
+    .tags {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                padding: 0.8rem;
+                background: var(--color2);
+                margin: 1rem;
+                font-size: 1.6rem;
+                color: var(--color7);
+            }
+        }
+    }
+}

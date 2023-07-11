@@ -1,0 +1,117 @@
+.client-area {
+    width: 100%;
+    position: relative;
+    background: var(--color2);
+
+    .section-title {
+        margin-bottom: 5rem;
+    }
+
+    .client-say {
+        background: var(--color1);
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        width: 80%;
+        margin: auto;
+
+        .client-img {
+            position: absolute;
+            left: -4rem;
+            top: 2rem;
+            z-index: 999;
+
+            img {
+                width: 7rem;
+            }
+        }
+
+        .content {
+            padding: 2rem 3rem 2rem 5rem;
+
+            h4 {
+                color: var(--color9);
+                font-size: 2.2rem;
+            }
+
+            p {
+                color: var(--color9);
+                font-size: 1.4rem;
+            }
+
+            .description {
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+#myCarousel .owl-dots .owl-dot span,
+#myCarousel2 .owl-dots .owl-dot span {
+    background: var(--color1);
+    margin-top: 3rem;
+}
+
+#myCarousel .owl-dots .owl-dot.active span,
+#myCarousel2 .owl-dots .owl-dot.active span {
+    background: var(--color7);
+    width: 4rem;
+}
+
+.blog-area {
+    width: 100%;
+    position: relative;
+
+    .section-title {
+        margin-bottom: 5rem;
+
+        h2 {
+            max-width: 60rem;
+        }
+    }
+
+    .designer {
+        background: var(--color8);
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        padding: 3rem;
+        margin: 2rem 1rem;
+
+        .design-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+
+            img {
+                width: 14rem;
+                height: 14rem;
+                margin-right: 0.5rem;
+            }
+            h4{
+                font-size: 2rem;
+            }
+        }
+
+        .profile-area {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 6rem;
+                height: 6rem;
+                margin-right: 1rem;
+            }
+
+            .profile-content {
+                margin-top: 1.5rem;
+
+                h5 {
+                    font-size: 1.8rem;
+                }
+
+                p {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}
